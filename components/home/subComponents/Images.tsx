@@ -57,7 +57,6 @@ const Images = ({
           // width={1300}
           // height={870}
           priority={true}
-          // quality={100}
           sizes="(min-width: 768px) 35vw, 24vw"
           onLoadingComplete={() => {
             if (i === 15) {

@@ -177,7 +177,7 @@ const ImageContainer = ({
                             alt={el.name}
                             layout="fill"
                             objectFit="cover"
-                            sizes="(min-width: 768px) 64vw, 100vw"
+                            sizes="(min-width: 768px) 100vw, 64vw"
                           />
                           <div className="w-full px-8 pt-8 pb-4 text-white absolute bottom-0 left-0 right-0 m-auto">
                             <span

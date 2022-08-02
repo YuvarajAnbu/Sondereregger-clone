@@ -54,7 +54,7 @@ const Images = ({
           alt={data.name}
           layout="fill"
           objectFit="cover"
-          sizes="(min-width: 768px) 18vw, 35vw"
+          sizes="(min-width: 768px) 35vw, 24vw"
           onLoadingComplete={() => {
             setLoaded(true);
           }}
