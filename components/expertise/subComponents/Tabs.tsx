@@ -314,6 +314,7 @@ const Tabs = () => {
                     alt="tab"
                     width={900}
                     height={600}
+                    priority={true}
                   />
                 </div>
                 <div
@@ -324,6 +325,7 @@ const Tabs = () => {
                     alt="tab"
                     width={900}
                     height={600}
+                    priority={true}
                   />
                 </div>
               </div>
