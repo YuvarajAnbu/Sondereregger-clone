@@ -57,6 +57,7 @@ const LongImage = () => {
           width={1920}
           height={33480}
           sizes="100vw"
+          layout="responsive"
           quality={100}
           src="/images/long.jpg"
           alt="Shaping the impossible"
