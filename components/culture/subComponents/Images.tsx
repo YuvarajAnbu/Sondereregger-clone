@@ -42,6 +42,7 @@ const Images = ({ main, images }: { main: string; images: string[] }) => {
           alt="building"
           layout="fill"
           objectFit="cover"
+          priority={true}
           // width={2560}
           // height={1440}
         />
