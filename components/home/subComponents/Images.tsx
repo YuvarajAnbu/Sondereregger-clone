@@ -57,8 +57,8 @@ const Images = ({
           // width={1300}
           // height={870}
           priority={true}
-          quality={100}
-          sizes="(min-width: 768px) 50vw, 24vw"
+          // quality={100}
+          sizes="(min-width: 768px) 35vw, 24vw"
           onLoadingComplete={() => {
             if (i === 15) {
               //scrollTrigger sets height before image loads, so refreshing it on loading last image
