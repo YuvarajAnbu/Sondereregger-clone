@@ -61,6 +61,7 @@ const LongImage = () => {
           quality={100}
           src="/images/long.jpg"
           alt="Shaping the impossible"
+          unoptimized={true}
         />
       </div>
     </div>
