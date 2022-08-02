@@ -326,6 +326,9 @@ const Tabs = () => {
                     width={900}
                     height={600}
                     priority={true}
+                    onLoadingComplete={() => {
+                      if (!i) ScrollTrigger.refresh();
+                    }}
                   />
                 </div>
               </div>
