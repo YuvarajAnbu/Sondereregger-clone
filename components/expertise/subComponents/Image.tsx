@@ -51,11 +51,13 @@ const LongImage = () => {
 
   return (
     <div className=" my-9">
-      <div ref={ref} className="w-full aspect-video overflow-hidden">
+      <div ref={ref} className="w-full re aspect-video overflow-hidden">
         <Image
           className="long-img"
           width={1920}
           height={33480}
+          sizes="100vw"
+          quality={100}
           src="/images/long.jpg"
           alt="Shaping the impossible"
         />
