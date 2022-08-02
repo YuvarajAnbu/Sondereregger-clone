@@ -1,0 +1,54 @@
+{
+  "intro": {
+    "span": "Expertise",
+    "title": ["La simplicité est la ", "sophistication suprême*"],
+    "desc": "* Léonard De Vinci ",
+    "iSpan": "Intro",
+    "intro": "<0>La taille n'a pas d'importance ! 👀 <1/>Petit ou grand, l'effort que nous mettons dans chaque projet est le même.</0>"
+  },
+  "tabs": [
+    {
+      "title": "Conception",
+      "content": "Le langage du design, les matériaux et le traitement sont probablement les facteurs les plus importants pour avoir un produit réussi. Cependant, la production industrielle doit toujours être prise en compte. Souvent, ce sont les détails qui décident si un produit peut être fabriqué industriellement ou non. Une fois de plus : \"La simplicité est la sophistication ultime\".",
+      "img": ["tab1", "tab2"]
+    },
+    {
+      "title": "Prototypes",
+      "content": "Le prototype joue un rôle important. Ainsi, ce n'est pas seulement l'aspect visuel qui est déterminant pour la perfection créative, mais aussi le toucher et la sensation qu'il procure. L'instinct primaire de nos ancêtres, qui ne pouvaient utiliser que le toucher et l'odorat pour décider si leur nourriture était comestible, nous a été transmis par l'évolution. Ainsi, lorsqu'un prototype passe ce test, il sera plus facile de lui dire OUI.",
+      "img": ["tab3", "tab4"]
+    },
+    {
+      "title": "Matériaux ",
+      "content": "Nous considérons le matériau avant tout comme un outil de communication non verbale, où les caractéristiques de qualité pertinentes telles que la couleur, la surface, la résistance, le toucher, etc. jouent un rôle important. Pour trouver le meilleur papier pour un projet, il faut avoir un aperçu complet des options disponibles sur le marché. Par conséquent, le contact avec les producteurs et les fournisseurs nous semble aussi important que le contact avec nos clients.",
+      "img": ["tab5", "tab6"]
+    },
+    {
+      "title": "Façonnage ",
+      "content": "La forme du produit joue un rôle dans la communication non verbale. En quelques secondes, elle est capable de transmettre une apparence innovante, contemporaine, moderne ou classique à un produit. Le facteur décisif est de savoir si nous parvenons ou non à trouver le langage qui parle au public cible.",
+      "img": ["tab7", "tab8"]
+    }
+  ],
+  "quotes": [
+    "“How you climb a mountain is more important than reaching the top.” Nous sommes totalement d'accord avec cette citation de Yvon Chouinard.",
+    "Nous sommes intéressés par le fait de repousser les limites. Dans toutes les disciplines. Pour repousser les limites, il faut d'abord aller au-delà. Demain, nous nous poserons à nouveau la même question.",
+    "Tout est en constante évolution et change. Cet état de fait, nous l’envisageons comme une opportunité et un défi, nous l'aimons. Let’s rock. "
+  ],
+  "passion": {
+    "title": ["With passion, ", "with love, with you"],
+    "desc": "To the 🌙 and back",
+    "content": [
+      {
+        "span": "Écoute et compréhension 💙",
+        "desc": "Pour atteindre efficacement un objectif, il faut d'abord comprendre où il se situe exactement. C'est pourquoi l'étape initiale consiste à comprendre, ce qui a surtout à voir avec l'écoute et l'empathie. Vous devez d'abord vous imprégner de la culture et de l’état d’esprit du client final afin d’élaborer une solution cohérente."
+      },
+      {
+        "span": "Anticipation 🤘",
+        "desc": "Après avoir écouté attentivement, nous savons généralement ou nous pouvons deviner la direction dans laquelle nous pouvons trouver la solution. Ainsi, nous avançons déjà dans cette direction, en réfléchissant au concept-production-faisabilité avant de recevoir des instructions spécifiques pour le faire. Wayne Gretzky a dit un jour : “Drive to the place where the puck will be and not where it is”."
+      },
+      {
+        "span": "Make it work 🎉",
+        "desc": "Tous les obstacles, les préoccupations et les incertitudes doivent être écartés. Pour cela, il faut une maquette pour l'expérience tactile, une communication rapide et précise, et une solution créative qui reflète la culture et l’état d’esprit du client. Le produit qui en résulte donne au client le sentiment et la sécurité d'avoir fait le bon choix."
+      }
+    ]
+  }
+}

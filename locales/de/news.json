@@ -1,0 +1,39 @@
+{
+  "intro": {
+    "span": "News",
+    "title": ["Was ist denn los*"],
+    "desc": "* No news is good news."
+  },
+  "news": [
+    {
+      "date": "12.05.2022",
+      "title": "Team-Event: Foxtrail St.Gallen ",
+      "desc": ["<0>5 Teams mit 5 Mitgliedern. Ein Hoch auf die Entdecker.</0>"]
+    },
+    {
+      "date": "04.05.2022",
+      "title": "IPS-Independent paper show Lausanne 2022",
+      "desc": [
+        "<0>IPS 2022 on the 4th and 5th of May 2022. The 4th edition in the marvellous halls of Amaretto. 21 exhibitors show their class in paper and its transformation.</0>",
+        "<1>https://papershow.ch/</1>",
+        "<2>ArtWork by BalmerHählen; Scenography by Matthieu Girel.</2>"
+      ]
+    },
+    {
+      "date": "17.11.2021",
+      "title": " Luxepack Monaco, Booth E17",
+      "desc": [
+        "<0>Keine Luxepack Monaco im 2020. Umso mehr freuen wir uns dieses Jahr wieder ausstellen zu können. <3/><4>Tickets können unter folgendem Linksbestellt werden.</4></0>"
+      ],
+      "link": "https://www.luxepackmonaco.com/en/visit/badge-request/?gclid=Cj0KCQjwjo2JBhCRARIsAFG667W8GlRUAvhHq8xBMUOXrBTUE1pLErHCaquEEEvoAyZBVY2Y8nuZd7waAvbQEALw_wcB"
+    },
+    {
+      "date": "27.10.2020",
+      "title": "Power of print in Zurich am Oktober 27, 2021",
+      "desc": [
+        "<0>Suchen Sie Inspiration in der welt der non-verbalen, analogen Kommunikation? Schauen Sie vorbei! <3/><4>https://powerofprint.ch/</4></0>"
+      ],
+      "link": "https://powerofprint.ch/"
+    }
+  ]
+}

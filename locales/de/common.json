@@ -1,0 +1,18 @@
+{
+  "header": {
+    "works": "Projekte",
+    "expertise": "Fachwissen",
+    "culture": "Kultur",
+    "team": "Team",
+    "news": "News",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "p1": "Sag 👋,",
+    "p2": "Wir haben immer ein offenes 👂 und nehmen uns ⌚️ die beste Lösung für Sie zu 💡.",
+    "p3": "Fordern Sie uns per  📨 oder ☎️ heraus."
+  },
+  "readMore": "Mehr lesen",
+  "intro": "Intro",
+  "notFound": "Nicht gefunden"
+}

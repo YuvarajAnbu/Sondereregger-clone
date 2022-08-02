@@ -1,0 +1,37 @@
+{
+  "projects": {
+    "desc": "EÊtre un explorateur, c'est en quelque sorte être un aventurier. Nous sommes constamment à la recherche de nouvelles approches. L'essentiel est que souvent, alors que nous cherchons quelque chose, nous trouvons une idée à laquelle nous n’avions pas pensé. Il faut donc commencer par chercher.",
+    "btn": "Voir tous nos projets"
+  },
+
+  "expertise": {
+    "span": "Expertise",
+    "title": ["Nos services sans", "limites *"],
+    "desc": "* La simplicité est la sophistication suprême !",
+    "cards": [
+      {
+        "title": "Conception",
+        "desc": "Définir une forme, une construction qui peut être produite de la manière la plus simple, mais aussi la plus efficace. Le point de départ est décisif. "
+      },
+      {
+        "title": "Prototypes",
+        "desc": "Une maquette entièrement développée aide nos clients à se sentir en confiance et leur garantit que nous sommes capables de finaliser le produit qui les satisfera. Le rendu, la sensation, la stabilité et la fonctionnalité ont tous un rôle important à jouer. "
+      },
+      {
+        "title": "Matériaux",
+        "desc": "Grâce à notre connaissance approfondie du papier, nous vous aiderons non seulement à rechercher, mais aussi à trouver le papier dont la stabilité, la couleur et la surface conviennent parfaitement à votre projet. "
+      },
+      {
+        "title": "Façonnage",
+        "desc": "Le bon choix de la technologie de traitement influence non seulement la fonctionnalité mais aussi l'apparence."
+      }
+    ]
+  },
+  "culture": {
+    "span": "Culture",
+    "desc": "La passion et la performance sont étroitement liées. Tout ce que nous aimons faire, nous le faisons généralement bien. Et c'est encore plus amusant lorsque nous le faisons ensemble. Mettre l'accent sur la responsabilité sociale nous aide à développer le terrain de jeu nécessaire pour faire de chaque membre de l'équipe un gagnant du match. Le respect joue ici un rôle crucial. 🚀"
+  },
+  "insta": {
+    "title": "Inspirez-vous"
+  }
+}

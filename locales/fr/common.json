@@ -1,0 +1,17 @@
+{
+  "header": {
+    "works": "Projects",
+    "expertise": "Expertise",
+    "culture": "Culture",
+    "team": "Team",
+    "news": "Actualités",
+    "contact": "Contact"
+  },
+  "footer": {
+    "p1": "Dites-nous 👋,",
+    "p2": "Nous prenons toujours le ⌚️ de👂 vos besoins et de 💡 les meilleures solutions.",
+    "p3": "Contactez-nous par 📨 ou par ☎️."
+  },
+  "readMore": "En savoir plus",
+  "notFound": "Non trouvé"
+}

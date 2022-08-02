@@ -1,0 +1,54 @@
+{
+  "intro": {
+    "span": "Fachwissen",
+    "title": ["Einfachheit ist die", "höchste Form der", "Raffinesse*"],
+    "desc": "* Leonardo Da Vinci",
+    "iSpan": "Intro",
+    "intro": "<0>Die Grösse ist nicht entscheidend! 👀Kleine oder grosse Projekte, unser Bemühungen sind die gleichen.</0>"
+  },
+  "tabs": [
+    {
+      "title": "Konzeption ",
+      "content": "Die Formsprache, das Material und die Verarbeitung sind wohl die wichtigsten Faktoren für ein erfolgreiches Produkt. Gleichzeitig soll aber immer auch die industrielle Fertigung miteinbezogen werden. Oft sind es Kleinigkeiten, welche darüber entscheiden, ob ein Produkt maschinell gefertigt werden kann oder nicht. Einmal mehr gilt: “Die Einfachheit ist die höchste Form der Raffinesse”",
+      "img": ["tab1", "tab2"]
+    },
+    {
+      "title": "Prototyping ",
+      "content": "Dem Muster oder Prototypen kommt eine entscheidende Rolle zu. Nicht nur die Optik fliesst in die Beurteilung ein, sondern auch das touch and feel. Ob etwas echt ist, man es noch essen kann, prüften unsere Vorfahren mittels Tastsinn und Geruch. Dieser Urinstinkt ist evolutionsbedingt immer nicht in unserem Kopf. Wenn das Muster diese Prüfung besteht ist es einfacher JA zu sagen.",
+      "img": ["tab3", "tab4"]
+    },
+    {
+      "title": "Material",
+      "content": "Wir verstehen das Material in erster Linie als ein Werkzeug der nonverbalen Kommunikation. Dabei spielen die relevanten Qualitätsmerkmale wir Farbe, Oberfläche, Festigkeit, Haptik etc. eine wichtige Rolle. Um das bestmögliche Papier für ein Projekt zu finden, braucht es eine umfassende Übersicht, welche Papiere auf dem Markt verfügbar sind. Den Kontakt zu den Produzenten und Lieferanten erscheint uns dabei so wichtig wir der Kontakt zu unseren Kunden.",
+      "img": ["tab5", "tab6"]
+    },
+    {
+      "title": "Gestaltung ",
+      "content": "Auch die Produktform übernimmt eine Kommunikationsaufgabe im nonverbalen Bereich. Sie schafft es innert Sekunden dem Produkt einen innovativen, zeitgenössischen, modernen oder klassischen Auftritt zu verleihen. Entscheiden ist, ob wir eine Sprache finden, welche das Zielpublikum erreicht.",
+      "img": ["tab7", "tab8"]
+    }
+  ],
+  "quotes": [
+    "“How you climb a mountain is more important than reaching the top” Wir sind völlig einig mit dieser Aussage von Yvon Chouinard.",
+    "Die Grenze des Machbaren interessiert uns. In allen Disziplinen. Um die Grenzen zu kennen, müssen wir sie erst überschreiten. Die gilt aber nur für heute. Morgen stellen wir uns wieder die gleiche Frage.",
+    "Alles ist in einem stetigen Fluss und verändert sich. Das sehen wir als eine Chance und Herausforderung an, und wir lieben sie. Let’s rock."
+  ],
+  "passion": {
+    "title": ["With passion, ", "with love, with you"],
+    "desc": "To the 🌙 and back",
+    "content": [
+      {
+        "span": "Zuhören und verstehen 💙",
+        "desc": "Um effizient eine Ziel zu erreichen muss man zuerst genau verstehen, wo das Ziel ist. Deshalb geht es in der ersten Etappe vor allem darum zu verstehen, und das hat meist mit Zuhören und Empathie zu tun. Man muss die Kultur, die Mentalität des Endkunden erst verstehen um einen kohärenten Lösungsansatz entwickeln zu können."
+      },
+      {
+        "span": "Antizipation 🤘",
+        "desc": "Wenn wir genau zugehört haben, dann wissen wir oder erahnen wir meist in welcher Richtung die Lösung zu finden ist. Also bewegen wir uns schon in diese Richtung, machen uns Konzept-Produktions-Machbarkeits-Gedanken bevor wir den konkreten aufruf dazu erhalten. Wayne Gretzky sagte einst “Fahre an der Ort wo der Puck sein wird und nicht wo er ist”."
+      },
+      {
+        "span": "Mach es möglich 🎉",
+        "desc": "Hindernisse, Bedenken, Unsicherheiten müssen aus dem Weg geschaffen werden. Das schafft man mit einem Muster für das touch and feel Erlebnis, einer schnellen und präzisen Kommunikation, einer kreativen Lösung, welche die Kultur und Mentalität des Endkunden und des Produktes reflektiert und gibt dem Kunden das Gefühl und auch die Sicherheit, die richtige Wahl getroffen zu haben."
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "intro": {
+    "span": "Expertise",
+    "title": ["Simplicity is the ultimate", "Sophistication*"],
+    "desc": "* Leonardo Da Vinci",
+    "iSpan": "Intro",
+    "intro": "<0>La taille n'a pas d'importance ! 👀 <1/> Petit ou grand, l'effort que nous mettons dans chaque projet est le même.</0>"
+  },
+  "tabs": [
+    {
+      "title": "Conception",
+      "content": "The design language, material and processing are probably the most important factors for a successful product. At the same time, however, industrial production should always be included. Often, it is the details that decide whether a product can be produced industrially or not. Once again: “Simplicity is the ultimate sophistication”.",
+      "img": ["tab1", "tab2"]
+    },
+    {
+      "title": "Prototypes",
+      "content": "The prototype plays an important role. Thereby, it is not only the visual appearance that is decisive for creative perfection but also the touch and feel. The primal instinct of our ancestors, who could only use touch and smell to decide whether their food was edible, has passed through evolution to us. So, once a prototype passes this test, it will be easier to say YES to it.",
+      "img": ["tab3", "tab4"]
+    },
+    {
+      "title": "Material",
+      "content": "We understand material primarily as a tool for non-verbal communication, where relevant quality features such as color, surface, strength, feel, etc. play an important role. To find the best paper for a project, you need a comprehensive overview of what options are available on the market. Therefore, the contact to producers and suppliers seems to us as important as the contact to our customers.",
+      "img": ["tab5", "tab6"]
+    },
+    {
+      "title": "Shaping",
+      "content": "The product form takes on a role in non-verbal communication. Within seconds, it is able to convey an innovative, contemporary, modern or classic appearance to a product. The deciding factor is whether or not we manage to find the language that speaks to the target audience.",
+      "img": ["tab7", "tab8"]
+    }
+  ],
+  "quotes": [
+    "“How you climb a mountain is more important than reaching the top” We absolutely agree with this statement from Yvon Chouinard.",
+    "We are interested in pushing the limits. In all disciplines. To hit the limits, first you have to go beyond. But this statement is only valid for today. Tomorrow we will ask the same question again.",
+    "Everything is constantly in flux and is changing. This fact we see as an opportunity and a challenge, we love it. Let’s rock."
+  ],
+  "passion": {
+    "title": ["With passion, ", "with love, with you"],
+    "desc": "To the 🌙 and back",
+    "content": [
+      {
+        "span": "Listening and understanding 💙",
+        "desc": "In order to achieve a goal efficiently, one must first understand exactly where it lies. That's why the initial stage is all about understanding, which mostly has to do with listening and empathy. You first need to get a grasp of the culture and mentality of the end customer to be able to develop a coherent solution."
+      },
+      {
+        "span": "Anticipation 🤘",
+        "desc": "Having listened carefully, we usually know or can guess the direction in which we can find the solution. So, we're already moving in this direction, thinking about concept-production-feasibility before we receive specific instructions for doing so. Wayne Gretzky once said: “Skate to where the puck is going to be, not where it has been”."
+      },
+      {
+        "span": "Make it work 🎉",
+        "desc": "All obstacles, concerns, and uncertainties have to be moved out of the way. This is achieved with a mockup for the touch and feel experience, quick and precise communication, and a creative solution that reflects the culture and mentality of the end customer. The resulting product gives the customer the feeling and the security of having made the right choice."
+      }
+    ]
+  }
+}

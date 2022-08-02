@@ -1,0 +1,37 @@
+{
+  "projects": {
+    "desc": "Entdecker sein hat etwas abenteuerliches. Wir sind stets auf der Suche nach Neuem. Wesentlich dabei ist die Erkenntnis, dass wir oft etwas gesucht und gefunden haben, das wir gar nicht gesucht haben. Dafür muss man aber erst einmal mit der Suche beginnen.",
+    "btn": "Alle Projekte anzeigen"
+  },
+
+  "expertise": {
+    "span": "Fachwissen",
+    "title": ["Our services without", "limits*"],
+    "desc": "* Simplicity is the Ultimate sophistication!",
+    "cards": [
+      {
+        "title": "Konzeption",
+        "desc": "Eine Form, eine Konstruktion zu finden welche auch produziert werden kann ist wohl der einfachste, aber zugleich auch der erfolgreichste Weg. Der Start ist dabei entscheidend. "
+      },
+      {
+        "title": "Prototyping",
+        "desc": "Ein fertig entwickeltes Muster gibt unseren Kunden die Sicherheit das Ziel zu seiner vollen Zufriedenheit zu erlangen. Aussehen, Haptik, Stabilität und Funktionalität spielen dabei ein wichtige Rolle. "
+      },
+      {
+        "title": "Material",
+        "desc": "Mit unserem grossen Wissen rund um Papier helfen wir nicht nur bei der Suche, sondern finden auch das Papier mit der passenden Stabilität, Farbe und Oberfläche mit der grösstmöglichen Kohärenz passend zu dem Projekt."
+      },
+      {
+        "title": "Gestaltung",
+        "desc": "Die richtige Prozesstechnologie beeinflusst nicht nur die Funktionalität sondern auch das Aussehen."
+      }
+    ]
+  },
+  "culture": {
+    "span": "Kultur",
+    "desc": "Leidenschaft und Leistung stehen in einem engen Wechselverhältnis. Alles was wir mit Freude machen, machen wir in der Regel auch gut. Und es macht noch mehr Freude, wenn wir es zusammen tun. Soziale Nachhaltigkeit hilft uns die nötigen Freiräume zu finden um aus jedem Teammitglied ein Matchwinner zu machen. Respekt spielt hierbei eine entscheidende Rolle. 🚀"
+  },
+  "insta": {
+    "title": "Folgen Sie uns für .Inspiration"
+  }
+}

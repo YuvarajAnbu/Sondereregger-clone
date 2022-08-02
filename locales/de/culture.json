@@ -1,0 +1,30 @@
+{
+  "intro": {
+    "span": "Kultur",
+    "title": ["Sonderegger’s", "Kultur*"],
+    "desc": "* Work hard, play harder!",
+    "iSpan": "Intro",
+    "intro": "<0>Teamwork-Teamkultur. Egal welche Aufgabe ein einzelnes Teammitglied übernimmt, sie ist wichtig. Und ganz wichtig dabei, sie verdient Respekt. Unser Team setzt sich aus ca 30 Leuten mit unterschiedlichem beruflichem, ethnischem oder religiösem Hintergrund zusammen. Das macht es so spannend und ist inspirierend in jeder Hinsicht.</0>"
+  },
+  "story": {
+    "title": ["Unsere unglaubliche ", "Geschichte*"],
+    "desc": "* Okay, unglaublich ist ein bisschen übertrieben.",
+    "years": [
+      { "year": 1966, "desc": "Gründungsjahr" },
+      { "year": 1980, "desc": "Erster Neubau" },
+      {
+        "year": 1986,
+        "desc": "Eintritt Bruno Sonderegger, neue Strategie, erster Computer"
+      },
+      { "year": 1991, "desc": "Erweiterungsbau" },
+      { "year": 2012, "desc": "Neubau auf der grünen Wiese" },
+      { "year": 2016, "desc": "Eintritt Dimitri Sonderegger" }
+    ]
+  },
+  "home": {
+    "title": ["Unser geliebte", "Homebase"],
+    "desc": "Effizient, aber gemütlich wie ein Familienhaus.",
+    "iSpan": "🏡",
+    "intro": "<0>Wir verstehen Architektur gleich wie unsere Verpackungen. Sie soll eine Reflexion des Inhalts sein. Die Architektur soll unsere Haltung non-verbal sichtbar zum Ausdruck bringen. Wie sehen uns als innovatives Team welches das Handwerk ins Zentrum setzt. Dies Haltung soll die Architektur ausstrahlen. Haben wir das geschafft? Kommen Sie vorbei und sagen sie es uns!</0>"
+  }
+}

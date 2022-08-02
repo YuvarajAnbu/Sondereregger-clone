@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "span": "News",
+    "title": ["What's up?*"],
+    "desc": "* No news is good news."
+  },
+  "news": [
+    {
+      "date": "05/12/2022 - 12:00",
+      "title": "Team-Event: Foxtrail St.Gallen",
+      "desc": [
+        "<0>5 teams with 5 team-members. Three cheers all explorers.</0>"
+      ]
+    },
+    {
+      "date": "05/04/2022 - 12:00",
+      "title": "IPS-Independent paper show Lausanne 2022",
+      "desc": [
+        "<0>IPS 2022 on the 4th and 5th of May 2022. The 4th edition in the marvellous halls of Amaretto. 21 exhibitors show their class in paper and its transformation.</0>",
+        "<1>https://papershow.ch/</1>",
+        "<2>ArtWork by BalmerHählen; Scenography by Matthieu Girel.</2>"
+      ]
+    },
+    {
+      "date": "11/17/2021 - 12:00",
+      "title": " Luxepack Monaco, Booth E17",
+      "desc": [
+        "<0>After the cancellation of Luxepack Monaco in 2020, we are pleased to exhibit again this year. <3/><4>Tickets can be ordered under this link.</4></0>"
+      ],
+      "link": "https://www.luxepackmonaco.com/en/visit/badge-request/?gclid=Cj0KCQjwjo2JBhCRARIsAFG667W8GlRUAvhHq8xBMUOXrBTUE1pLErHCaquEEEvoAyZBVY2Y8nuZd7waAvbQEALw_wcB"
+    },
+    {
+      "date": "10/27/2020 - 12:00",
+      "title": "Power of print in Zurich on October 27th 2021",
+      "desc": [
+        "<0>Looking for inspiration in the field of the non-verbal, analog communication? Drop in! <3/><4>https://powerofprint.ch/</4></0>"
+      ],
+      "link": "https://powerofprint.ch/"
+    }
+  ]
+}

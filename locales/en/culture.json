@@ -1,0 +1,30 @@
+{
+  "intro": {
+    "span": " Culture ",
+    "title": ["Sonderegger’s Culture*"],
+    "desc": "* Work hard, play harder!",
+    "iSpan": "Intro",
+    "intro": "<0>Teamwork-Team culture. No matter the role of our team members, they are important and respected. Our team is made up of about 30 people with different business, ethnic or religious backgrounds. Its diversity makes it fascinating and inspiring.</0>"
+  },
+  "story": {
+    "title": ["Our amazing", "story*"],
+    "desc": "* Okay, amazing is a bit of an overstatement.",
+    "years": [
+      { "year": 1966, "desc": "Year of foundation" },
+      { "year": 1980, "desc": "First new building" },
+      {
+        "year": 1986,
+        "desc": "Bruno Sonderegger joins, new strategy, first computer"
+      },
+      { "year": 1991, "desc": "Extension building" },
+      { "year": 2012, "desc": "New construction on a greenfield site" },
+      { "year": 2016, "desc": "Entry of Dimitri Sonderegger" }
+    ]
+  },
+  "home": {
+    "title": ["Our beautiful", "headquarters"],
+    "desc": "Efficient but cozy like a family home.",
+    "iSpan": "🏡",
+    "intro": "<0>We understand architecture similar to packaging. It is a reflection of the content enclosed within. Our attitude should be expressed by means of non-verbal communication. We see ourselves as an innovative team whose hand craft is central to their work. And architecture should broadcast this attitude. Did we succeed? Drop in and let us know!</0>"
+  }
+}

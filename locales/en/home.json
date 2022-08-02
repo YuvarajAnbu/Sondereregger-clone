@@ -1,0 +1,36 @@
+{
+  "projects": {
+    "desc": "There is something adventurous about being an explorer. We are always looking for something new. What is essential here is the knowledge that we often come across things we weren't expecting. To discover something new, however, you first have to start searching",
+    "btn": "See all projects"
+  },
+  "expertise": {
+    "span": "Expertise",
+    "title": ["Our services without", "limits*"],
+    "desc": "* Simplicity is the Ultimate sophistication!",
+    "cards": [
+      {
+        "title": "Conception",
+        "desc": "Finding a form, a construction that can be produced in the simplest, yet most effective way. The start is decisive."
+      },
+      {
+        "title": "Prototypes",
+        "desc": "A fully developed mockup helps our customers feel confident and guarantees that we are able to finalize the product to their satisfaction. The look, feel, stability and functionality all play an important role."
+      },
+      {
+        "title": "Material",
+        "desc": "With our extensive knowledge of paper, we will not only help you research but also find the paper with the right stability, color and surface that would make the perfect fit for your project."
+      },
+      {
+        "title": "Shaping",
+        "desc": "The right choice of processing technology influences not only the functionality but also the appearance."
+      }
+    ]
+  },
+  "culture": {
+    "span": "Culture",
+    "desc": "Passion and performance are closely interrelated. Everything we enjoy doing, we usually do well. And it's even more fun when we do it together. Emphasizing social responsibility helps us develop the playing field needed to turn every team member into a match winner. Respect plays a crucial role here. 🚀"
+  },
+  "insta": {
+    "title": "Follow us .for inspiration"
+  }
+}

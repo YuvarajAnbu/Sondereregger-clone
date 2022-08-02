@@ -1,0 +1,17 @@
+{
+  "header": {
+    "works": "Works",
+    "expertise": "Expertise",
+    "culture": "Culture",
+    "team": "Team",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "footer": {
+    "p1": "Get in touch 👋,",
+    "p2": "We always take ⌚️ to 👂 to your needs and 💡 the best solutions.",
+    "p3": "Get in touch with us by 📨 or ☎️."
+  },
+  "readMore": "Read more",
+  "notFound": "Not found"
+}
