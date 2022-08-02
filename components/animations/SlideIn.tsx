@@ -22,7 +22,7 @@ const SlideIn = ({ children, top }: { children: ReactNode; top?: boolean }) => {
         },
       }
     );
-  }, []);
+  }, [top]);
 
   return <div ref={ref}>{children}</div>;
 };
