@@ -30,7 +30,6 @@ const Images = ({
           scrub: 2,
           start: "top 200px",
           end: `${100 - random * 10}% bottom`,
-          markers: true,
         },
       });
   }, [containerRef, random]);
