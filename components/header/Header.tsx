@@ -66,7 +66,6 @@ const Header = () => {
       scrollTrigger: {
         trigger: containerRef.current,
         start: 100,
-        markers: true,
         onEnter: () => {
           setHide(true);
         },
@@ -95,8 +94,12 @@ const Header = () => {
           className={`w-[50px] h-[50px] cursor-pointer rounded-full bg-def-white shadow-def hover:shadow-hov focus:shadow-none menu-transition ${
             opened
               ? "before:content-['✕'] mt-2 md:mt-0 md:w-[50px] md:h-[50px]"
-              : "before:content-['☰'] md:before:content-[''] mt-0 md:w-[150px] md:h-[60px]"
-          } ${hide && "before:!content-['☰'] !w-[50px] !h-[50px]"}`}
+              : `before:content-['☰'] mt-0 ${
+                  hide
+                    ? "md:before:content-['☰'] w-[50px] h-[50px]"
+                    : "md:before:content-[''] md:w-[150px] md:h-[60px]"
+                } `
+          }`}
           onClick={() => {
             setOpened((prev) => !prev);
           }}
