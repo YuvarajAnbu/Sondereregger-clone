@@ -19,6 +19,8 @@ const Landing = () => {
         end: "80% bottom",
       },
     });
+
+    ScrollTrigger.refresh();
   }, []);
 
   return (

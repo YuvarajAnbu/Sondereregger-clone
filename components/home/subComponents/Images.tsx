@@ -3,6 +3,8 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const Images = ({
   containerRef,
   i,
@@ -28,6 +30,7 @@ const Images = ({
           scrub: 2,
           start: "top 200px",
           end: `${100 - random * 10}% bottom`,
+          markers: true,
         },
       });
   }, [containerRef, random]);
@@ -59,10 +62,10 @@ const Images = ({
           priority={true}
           sizes="(min-width: 768px) 35vw, 24vw"
           onLoadingComplete={() => {
-            if (i === 15) {
-              //scrollTrigger sets height before image loads, so refreshing it on loading last image
-              ScrollTrigger.refresh();
-            }
+            // if (i === 15) {
+            //scrollTrigger sets height before image loads, so refreshing it on loading last image
+            // ScrollTrigger.refresh();
+            // }
           }}
         />
       </div>

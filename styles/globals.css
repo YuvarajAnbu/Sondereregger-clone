@@ -69,6 +69,10 @@ a {
     bottom: 0 !important;
   }
 
+  .eapps-instagram-feed-title-container {
+    display: none !important;
+  }
+
   @media (min-width: 768px) {
     .exp-swiper .swiper-pagination {
       left: 30px;
