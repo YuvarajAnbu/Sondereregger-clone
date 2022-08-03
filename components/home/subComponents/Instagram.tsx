@@ -54,8 +54,8 @@ const Instagram = () => {
           })}
       </h2>
       <div className="pt-[10vh]">
-        {/* <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div className="elfsight-app-4936827b-d725-4d1d-8bd4-7a1bb0cea7c5"></div> */}
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div className="elfsight-app-4936827b-d725-4d1d-8bd4-7a1bb0cea7c5"></div>
       </div>
     </div>
   );
