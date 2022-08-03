@@ -112,7 +112,7 @@ const Works = () => {
         </span>
       </p>
       <div
-        className={`relative max-h-0 z-40 overflow-hidden lg:overflow-visible lg:max-h-32 lg:h-32 lg:pb-9 flex flex-col lg:flex-row flex-wrap justify-items-start transition-[max-height] duration-700 ease-in-out ${
+        className={`relative max-h-0 z-40 overflow-hidden lg:overflow-visible lg:max-h-32 lg:h-32 lg:pb-9 flex flex-col lg:flex-row flex-wrap justify-items-start transition-[max-height] duration-700 ease-in-out bg-def-white ${
           mOpened && "max-h-[2000px]"
         }`}
       >

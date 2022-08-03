@@ -45,28 +45,28 @@ const Header = () => {
   }, [opened]);
 
   // scroll to top cuz gsap recalculates scroll start and end values on resize and the current position of header with position:fixed is taken as start and end values.
-  useEffect(() => {
-    const top = () => {
-      console.log(window.innerWidth);
+  // useEffect(() => {
 
-      gsap.to(window, {
-        scrollTo: 0,
-        onComplete: () => {
-          ScrollTrigger.refresh();
-        },
-      });
-    };
-    window.addEventListener("resize", top);
-    () => {
-      window.removeEventListener("resize", top);
-    };
-  }, []);
+  //   const top = () => {
+  //     gsap.to(window, {
+  //       scrollTo: 0,
+  //       onComplete: () => {
+  //         ScrollTrigger.refresh();
+  //       },
+  //     });
+  //   };
+  //   window.addEventListener("resize", top);
+  //   () => {
+  //     window.removeEventListener("resize", top);
+  //   };
+  // }, []);
 
   useEffect(() => {
     gsap.to(containerRef.current, {
       scrollTrigger: {
         trigger: containerRef.current,
-        start: "center start",
+        start: 100,
+        markers: true,
         onEnter: () => {
           setHide(true);
         },
