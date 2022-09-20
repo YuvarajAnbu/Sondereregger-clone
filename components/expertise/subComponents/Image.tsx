@@ -60,7 +60,7 @@ const LongImage = () => {
           layout="responsive"
           quality={100}
           src="/images/long.jpg"
-          alt="Shaping the impossible"
+          alt=""
           priority={true}
           unoptimized={true}
         />
