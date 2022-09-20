@@ -59,9 +59,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <div className="absolute top-[20vh] left-[calc(50%-120px)] w-28 h-28 origin-bottom-right opacity-70 animate-[spin_1.3s_ease-in-out_infinite] z-50">
           <Image
             src="/images/loader.svg"
-            alt="loading"
+            alt=""
             layout="fill"
-            priority
           />
         </div>
         // </div>
