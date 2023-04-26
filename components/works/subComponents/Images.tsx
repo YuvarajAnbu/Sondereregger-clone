@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Data } from "others/data";
+import { LoadingContext } from "pages/_app";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,13 +18,16 @@ const Images = ({
   liked: number[];
   like: (value: number) => void;
 }) => {
+  const { setLoading } = useContext(LoadingContext);
+
   const [random] = useState<number>(Math.floor(Math.random() * 3));
   const [loaded, setLoaded] = useState<boolean>(false);
 
   const imageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (imageRef.current && loaded)
+    if (imageRef.current && loaded) {
+      setLoading(false);
       gsap.fromTo(
         imageRef.current,
         { y: 100, opacity: 0 },
@@ -39,6 +43,7 @@ const Images = ({
           },
         }
       );
+    }
   }, [loaded]);
 
   return (

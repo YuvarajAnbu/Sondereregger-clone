@@ -2,11 +2,14 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import FImage from "next/future/image";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { LoadingContext } from "pages/_app";
+import { useContext, useEffect, useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Images = ({ main, images }: { main: string; images: string[] }) => {
+  const { setLoading } = useContext(LoadingContext);
+
   const containerRef = useRef<HTMLDivElement>(null);
   const imagesRef = useRef<HTMLDivElement>(null);
 
@@ -43,6 +46,9 @@ const Images = ({ main, images }: { main: string; images: string[] }) => {
           layout="fill"
           objectFit="cover"
           priority={true}
+          onLoadingComplete={() => {
+            setLoading(false);
+          }}
           // width={2560}
           // height={1440}
         />

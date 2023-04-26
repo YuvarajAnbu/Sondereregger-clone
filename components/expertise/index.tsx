@@ -1,6 +1,6 @@
 import useTranslation from "next-translate/useTranslation";
 import Intro from "../subComponents/Intro";
-import LongImage from "./subComponents/Image";
+import LongImage from "./subComponents/LongImage";
 import Passion from "./subComponents/Passion";
 import Quotes from "./subComponents/Quotes";
 import Tabs from "./subComponents/Tabs";

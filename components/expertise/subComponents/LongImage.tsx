@@ -1,11 +1,13 @@
 import Image from "next/image";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import { LoadingContext } from "pages/_app";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const LongImage = () => {
+  const { setLoading } = useContext(LoadingContext);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -63,6 +65,9 @@ const LongImage = () => {
           alt=""
           priority={true}
           unoptimized={true}
+          onLoadingComplete={() => {
+            setLoading(false);
+          }}
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Header = () => {
 
   useEffect(() => {
     const html = document.documentElement;
-    const header = document.querySelector("header");
+    // const header = document.querySelector("header");
 
     if (opened) {
-      if (header)
-        header.style.width =
-          window.innerWidth -
-          (window.innerWidth - document.documentElement.clientWidth) +
-          "px";
+      // if (header)
+      //   header.style.width =
+      //     window.innerWidth -
+      //     (window.innerWidth - document.documentElement.clientWidth) +
+      //     "px";
       html.style.overflowY = "hidden";
     } else {
-      if (header) header.style.width = "100%";
+      // if (header) header.style.width = "100%";
       html.style.overflowY = "auto";
     }
   }, [opened]);
@@ -223,8 +223,10 @@ const Header = () => {
         </div>
       </nav>
       <ul
-        className={`flex-col flex-wrap gap-1 my-12 px-6 md:flex-row md:justify-center md:content-center md:absolute md:top-1/2 md:-translate-y-3/4 md:left-1/2 md:-translate-x-1/2 max-w-screen-xl w-full ${
-          opened ? "flex  z-50" : "hidden  z-0"
+        className={`flex flex-col flex-wrap gap-1 my-12 px-6 md:flex-row md:justify-center md:content-center md:absolute md:top-1/2 md:-translate-y-3/4 md:left-1/2 md:-translate-x-1/2 max-w-screen-xl w-full transition-opacity ${
+          opened
+            ? " z-50 duration-500"
+            : "z-0 opacity-0 pointer-events-none duration-[0s]"
         }`}
       >
         {navLinks.map((el, i) => (

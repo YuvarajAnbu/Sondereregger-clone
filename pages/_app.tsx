@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
 import Head from "next/head";
+import { log } from "console";
 
 export const LoadingContext = createContext<{
   loading: boolean;
@@ -22,33 +23,32 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const router = useRouter();
   const [loading, setLoading] = useState(true);
-  const [loaded, setLoaded] = useState(false); // min 1s to show loading
+  const [loaded, setLoaded] = useState(false); //for fading in the page
 
+  // loading on initial load
+  //cant use loading = true condition because loading sets to false so fast and timeout clears before the given time
   useEffect(() => {
-    if (loading) {
-      setLoaded(false);
-      setTimeout(() => {
-        setLoaded(true);
-      }, 1000);
-    }
-  }, [loading]);
+    setLoaded(false);
+    let timeout = setTimeout(() => {
+      setLoaded(true);
+    }, 800);
 
-  // loading
-  // useEffect(() => {
-  //   setLoaded(true);
-  //   let timeout = setTimeout(() => {
-  //     setLoading(false);
-  //   }, 1000);
-
-  //   return () => {
-  //     clearTimeout(timeout);
-  //   };
-  // }, []);
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
 
   useEffect(() => {
     const handleStart = () => {
       setLoading(true);
+
+      //reset loaded whenever loading on different route
       setLoaded(false);
+      setTimeout(() => {
+        if (loading) {
+          setLoaded(true);
+        }
+      }, 800);
     };
     const handleComplete = () => {
       ScrollTrigger.refresh();
@@ -67,20 +67,22 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <LoadingContext.Provider value={{ loading, setLoading }}>
-      {(loading || !loaded) && (
-        // <div className="w-[100vw] h-[100vh] absolute z-50">
-        <div className="absolute top-[20vh] left-[calc(50%-120px)] w-28 h-28 origin-bottom-right opacity-70 animate-[spin_1.3s_ease-in-out_infinite] z-50">
-          <Image src="/images/loader.svg" alt="" layout="fill" />
-        </div>
-        // </div>
-      )}
+      {/* <div className="w-[100vw] h-[100vh] absolute z-50"> */}
+      <div
+        className={`${
+          loading || !loaded ? "opacity-70" : "opacity-0"
+        } absolute top-[20vh] left-[calc(50%-120px)] w-28 h-28 origin-bottom-right transition-opacity duration-[400ms] animate-[spin_1.3s_ease-in-out_infinite] z-50`}
+      >
+        <Image src="/images/loader.svg" alt="" layout="fill" />
+      </div>
+      {/* </div> */}
       {/* to fadein the page after loading ends */}
       <div
         className={`${
-          !loading && loaded
-            ? "opacity-100 delay-500 duration-[800ms]"
-            : "opacity-0 duration-[0s]"
-        } transition  z-10 relative w-full`}
+          loading && !loaded
+            ? "opacity-0 duration-[0s]"
+            : "opacity-100 delay-500 duration-[800ms]"
+        } transition-opacity z-10 relative w-full`}
       >
         <Head>
           <title>

@@ -1,11 +1,18 @@
 import ImageContainer from "../works/subComponents/ImageContainer";
 import data, { Data } from "../../others/data";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import useTranslation from "next-translate/useTranslation";
 import Trans from "next-translate/Trans";
 import Link from "next/link";
+import { LoadingContext } from "pages/_app";
 
 const Mood = () => {
+  const { setLoading } = useContext(LoadingContext);
+
+  useEffect(() => {
+    setLoading(false);
+  }, []);
+
   const { t } = useTranslation("mood");
   const [fData, setFData] = useState<Data[]>([]);
   const [changed, setChanged] = useState<boolean>(false);

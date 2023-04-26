@@ -3,8 +3,11 @@ import TransText from "next-translate/TransText";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 import Intro from "../subComponents/Intro";
+import { useContext } from "react";
+import { LoadingContext } from "pages/_app";
 
 const News = () => {
+  const { setLoading } = useContext(LoadingContext);
   const { t } = useTranslation("news");
 
   interface News {
@@ -36,6 +39,9 @@ const News = () => {
                       objectFit="cover"
                       width={600}
                       height={280}
+                      onLoadingComplete={() => {
+                        setLoading(false);
+                      }}
                     />
                   </div>
                   <div className="flex-1 md:ml-[8.33333%] flex gap-4 flex-col px-4 text-xs mb-4">

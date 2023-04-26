@@ -1,10 +1,12 @@
 import LineFill from "components/animations/LineFill";
 import gsap from "gsap";
 import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import { Team } from "..";
+import { LoadingContext } from "pages/_app";
 
 const Card = ({ el }: { el: Team }) => {
+  const { setLoading } = useContext(LoadingContext);
   const imageRef = useRef<HTMLDivElement>(null);
   const tl = useRef<GSAPTimeline>();
 
@@ -72,6 +74,9 @@ const Card = ({ el }: { el: Team }) => {
             alt={el.name}
             width={480}
             height={720}
+            onLoadingComplete={() => {
+              setLoading(false);
+            }}
           />
         </div>
         <div className="absolute bottom-0 w-[84%] right-[8.333%] max-w-full [&>span]:rounded-2xl [&>span]:shadow-img origin-[right_90%]">
