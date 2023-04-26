@@ -51,7 +51,10 @@ const LongImage = () => {
 
   return (
     <div className=" my-9">
-      <div ref={ref} className="w-full re aspect-video overflow-hidden">
+      <div
+        ref={ref}
+        className="w-full re aspect-video overflow-hidden bg-[#f1f1f1]"
+      >
         <img
           className="long-img"
           src="/images/long.jpg"
