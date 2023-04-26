@@ -1,7 +1,6 @@
-import Image from "next/image";
+// import Image from "next/image";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef } from "react";
-// import longImage from "../../../public/images/long.jpg";
 import gsap from "gsap";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -61,11 +60,13 @@ const LongImage = () => {
         />
         {/* <Image
         className="long-img"
+
           src="/images/long.jpg"
           layout="responsive"
           quality={100}
           priority
           unoptimized
+
           width={1920}
           height={33480}
           sizes="100vw"
