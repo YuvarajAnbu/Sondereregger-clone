@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef } from "react";
-import longImage from "../../../public/images/long.jpg";
+// import longImage from "../../../public/images/long.jpg";
 import gsap from "gsap";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -53,25 +53,32 @@ const LongImage = () => {
   return (
     <div className=" my-9">
       <div ref={ref} className="w-full re aspect-video overflow-hidden">
-        <Image
-          src={longImage}
+        <img
+          className="long-img"
+          src="/images/long.jpg"
+          alt=""
+          srcSet="/images/long-sm.jpg 768w, /images/long.jpg 1920w"
+        />
+        {/* <Image
+        className="long-img"
+          src="/images/long.jpg"
           layout="responsive"
           quality={100}
-          sizes="(max-width: 600px) 600px, (max-width: 1200px) 1200px, 1920px"
           priority
-          // width={1920}
-          // height={33480}
-          // sizes="100vw"
-          // layout="responsive"
-          // quality={100}
-          // src="/images/long.jpg"
-          // alt=""
-          // priority={true}
-          // unoptimized={true}
-          // onLoadingComplete={() => {
-          //   setLoading(false);
-          // }}
-        />
+          unoptimized
+          width={1920}
+          height={33480}
+          sizes="100vw"
+          layout="responsive"
+          quality={100}
+          src="/images/long.jpg"
+          alt=""
+          priority={true}
+          unoptimized={true}
+          onLoadingComplete={() => {
+            setLoading(false);
+          }}
+        /> */}
       </div>
     </div>
   );
