@@ -41,13 +41,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     const handleStart = () => {
       setLoading(true);
-
       //reset loaded whenever loading on different route
       setLoaded(false);
       setTimeout(() => {
-        if (loading) {
-          setLoaded(true);
-        }
+        setLoaded(true);
       }, 800);
     };
     const handleComplete = () => {
