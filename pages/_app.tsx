@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
 import Head from "next/head";
-import { log } from "console";
 
 export const LoadingContext = createContext<{
   loading: boolean;
@@ -67,18 +66,19 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* <div className="w-[100vw] h-[100vh] absolute z-50"> */}
       <div
         className={`${
-          loading || !loaded ? "opacity-70" : "opacity-0"
+          !loading && loaded ? "opacity-0" : "opacity-70"
         } absolute top-[20vh] left-[calc(50%-120px)] w-28 h-28 origin-bottom-right transition-opacity duration-[400ms] animate-[spin_1.3s_ease-in-out_infinite] z-50`}
       >
         <Image src="/images/loader.svg" alt="" layout="fill" />
       </div>
       {/* </div> */}
       {/* to fadein the page after loading ends */}
+      {/* {console.log(loading, loaded)} */}
       <div
         className={`${
-          loading && !loaded
-            ? "opacity-0 duration-[0s]"
-            : "opacity-100 delay-500 duration-[800ms]"
+          !loading && loaded
+            ? "opacity-100 delay-500 duration-[800ms]"
+            : "opacity-0 duration-[0s]"
         } transition-opacity z-10 relative w-full`}
       >
         <Head>
