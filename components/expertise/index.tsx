@@ -4,11 +4,19 @@ import LongImage from "./subComponents/LongImage";
 import Passion from "./subComponents/Passion";
 import Quotes from "./subComponents/Quotes";
 import Tabs from "./subComponents/Tabs";
+import { useContext, useEffect } from "react";
+import { LoadingContext } from "pages/_app";
 
 const Expertise = () => {
+  const { setLoading } = useContext(LoadingContext);
   const { t } = useTranslation("expertise");
 
   const titleArr: string[] = t("intro.title", {}, { returnObjects: true });
+
+  useEffect(() => {
+    setLoading(false);
+  }, []);
+
   return (
     <div>
       <Intro
