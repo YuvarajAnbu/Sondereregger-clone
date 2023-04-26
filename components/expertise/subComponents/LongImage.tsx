@@ -54,11 +54,10 @@ const LongImage = () => {
     <div className=" my-9">
       <div ref={ref} className="w-full re aspect-video overflow-hidden">
         <Image
-          className="long-img"
           src={longImage}
           layout="responsive"
           quality={100}
-          sizes="100vw"
+          sizes="(max-width: 600px) 600px, (max-width: 1200px) 1200px, 1920px"
           priority
           // width={1920}
           // height={33480}
