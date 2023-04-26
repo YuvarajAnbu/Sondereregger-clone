@@ -59,7 +59,6 @@ const LongImage = () => {
           layout="responsive"
           quality={100}
           sizes="100vw"
-          placeholder="blur"
           priority
           // width={1920}
           // height={33480}
