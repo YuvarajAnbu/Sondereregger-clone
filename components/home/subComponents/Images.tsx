@@ -65,8 +65,6 @@ const Images = ({
           sizes="(min-width: 768px) 35vw, 24vw"
           onLoadingComplete={() => {
             if (i === 4) {
-              console.log(1);
-
               setLoading(false);
             }
           }}

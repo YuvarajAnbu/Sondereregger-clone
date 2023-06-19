@@ -1,14 +1,16 @@
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import ScrollToPlugin from "gsap/dist/ScrollToPlugin";
+import { LoadingContext } from "pages/_app";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 const Header = () => {
+  const { setLoading } = useContext(LoadingContext);
   const router = useRouter();
 
   const { t } = useTranslation("common");
@@ -195,6 +197,10 @@ const Header = () => {
               className="bg-def-white rounded-full block w-16 p-3 shadow-def hover:shadow-hov transition duration-500 ease-out cursor-pointer"
               onClick={() => {
                 setOpened(false);
+
+                setTimeout(() => {
+                  setLoading(false);
+                }, 800);
               }}
             >
               de
@@ -205,6 +211,9 @@ const Header = () => {
               className="bg-def-white rounded-full block w-16 p-3 shadow-def hover:shadow-hov transition duration-500 ease-out cursor-pointer"
               onClick={() => {
                 setOpened(false);
+                setTimeout(() => {
+                  setLoading(false);
+                }, 800);
               }}
             >
               fr
@@ -215,6 +224,9 @@ const Header = () => {
               className="bg-def-white rounded-full block w-16 p-3 shadow-def hover:shadow-hov transition duration-500 ease-out cursor-pointer"
               onClick={() => {
                 setOpened(false);
+                setTimeout(() => {
+                  setLoading(false);
+                }, 800);
               }}
             >
               en

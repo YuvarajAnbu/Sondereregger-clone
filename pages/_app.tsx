@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
 import Head from "next/head";
+import { log } from "console";
 
 export const LoadingContext = createContext<{
   loading: boolean;
